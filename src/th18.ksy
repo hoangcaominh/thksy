@@ -57,7 +57,7 @@ types:
       type: u4
     - id: player_is_focused_start
       type: u4
-    - id: spellcard_real_times
+    - id: spell_card_real_times
       type: u4
       repeat: expr
       repeat-expr: 20
@@ -117,7 +117,7 @@ types:
       type: u4
     - id: power_max
       type: u4
-    - id: power_levelup
+    - id: power_level_up
       type: u4
     - id: unknown_5
       type: u4
@@ -161,7 +161,7 @@ types:
       type: u4
     - id: time_f
       type: f4
-    - id: game_speed_ununsed
+    - id: game_speed_unused
       type: u4
     - id: control
       type: u4

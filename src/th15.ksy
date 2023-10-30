@@ -97,7 +97,7 @@ types:
       type: u4
     - id: power_max
       type: u4
-    - id: power_levelup
+    - id: power_level_up
       type: u4
     - id: unknown_3
       type: u4
@@ -145,7 +145,7 @@ types:
       type: u4
     - id: focused
       type: u4
-    - id: spellcard_real_times
+    - id: spell_card_real_times
       type: u4
       repeat: expr
       repeat-expr: 21

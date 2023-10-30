@@ -8,7 +8,7 @@ seq:
   - id: stages
     type: stage
     repeat: expr
-    repeat-expr: header.stagecount
+    repeat-expr: header.stage_count
 types:
   header:
     seq:
@@ -24,7 +24,7 @@ types:
         size: 52
       - id: slowdown
         type: f4
-      - id: stagecount
+      - id: stage_count
         type: u4
       - id: shot
         type: u4

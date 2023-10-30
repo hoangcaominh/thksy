@@ -76,7 +76,7 @@ types:
         type: u4
       - id: piv
         type: u4
-      - id: cherrymax
+      - id: cherry_max
         type: u4
       - id: cherry
         type: u4
