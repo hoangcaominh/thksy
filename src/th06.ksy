@@ -80,7 +80,7 @@ types:
         type: u4
     instances:
       body:
-        pos: _parent.file_header.stage_offsets[idx] - 15
+        pos: _parent.file_header.stage_offsets[idx]
         type:
           switch-on: _parent.file_header.stage_offsets[idx]
           cases:
