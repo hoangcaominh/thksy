@@ -3,6 +3,8 @@ meta:
   file-extension: rpy
   endian: le
 seq:
+  - id: header
+    type: header
   - id: file_header
     type: file_header
   - id: stages
@@ -12,6 +14,22 @@ seq:
 types:
   dummy:
     doc: blank type
+  header:
+    seq:
+      - id: magic
+        contents: T6RP
+      - id: version
+        size: 2
+      - id: shot
+        type: u1
+      - id: difficulty
+        type: u1
+      - id: checksum
+        type: u4
+      - id: unknown
+        size: 2
+      - id: key
+        type: u1
   file_header:
     seq:
       - id: unknown_2
